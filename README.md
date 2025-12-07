@@ -26,7 +26,7 @@ source ~/.bashrc  # or ~/.zshrc
 ```bash
 # Clone repository
 git clone https://github.com/adeirman46/War-Defense-Swarm-Drones.git
-cd War-Defense-Swarm-Drones.git
+cd War-Defense-Swarm-Drones
 
 # Install dependencies using Pixi
 pixi install
@@ -73,7 +73,7 @@ This will launch:
 **WASD Keyboard Control** (Easiest! ⭐)
 ```bash
 # In a new terminal:
-cd ~/War-Defense-Swarm-Drones.git
+cd ~/War-Defense-Swarm-Drones
 
 # Activate Pixi environment
 pixi shell
