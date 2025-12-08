@@ -26,11 +26,13 @@ source ~/.bashrc  # or ~/.zshrc
 ```bash
 # Clone repository
 git clone https://github.com/adeirman46/War-Defense-Swarm-Drones.git
-cd War-Defense-Swarm-Drones.git
+cd War-Defense-Swarm-Drones
 
-# Install dependencies using Pixi
-pixi install
+# Install simulation environment dependencies
+pixi install -e simulation
 ```
+
+**Important:** You must install the `simulation` environment (not the default environment) to get all required dependencies including MAVProxy.
 
 ### 3. Download Components
 
@@ -73,10 +75,10 @@ This will launch:
 **WASD Keyboard Control** (Easiest! ⭐)
 ```bash
 # In a new terminal:
-cd ~/War-Defense-Swarm-Drones.git
+cd War-Defense-Swarm-Drones
 
-# Activate Pixi environment
-pixi shell
+# Activate Pixi simulation environment
+pixi shell -e simulation
 
 # Run control script
 python3 scripts/wasd_control.py
