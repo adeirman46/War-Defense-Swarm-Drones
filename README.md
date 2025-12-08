@@ -27,6 +27,7 @@ source ~/.bashrc  # or ~/.zshrc
 # Clone repository
 git clone https://github.com/adeirman46/War-Defense-Swarm-Drones.git
 cd War-Defense-Swarm-Drones
+cd War-Defense-Swarm-Drones
 
 # Install simulation environment dependencies
 pixi install -e simulation
@@ -76,6 +77,7 @@ This will launch:
 ```bash
 # In a new terminal:
 cd War-Defense-Swarm-Drones
+cd ~/War-Defense-Swarm-Drones
 
 # Activate Pixi simulation environment
 pixi shell -e simulation
